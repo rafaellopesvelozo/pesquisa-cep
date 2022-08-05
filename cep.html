@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--cep css-->
+    <link rel="stylesheet" href="css/cep.css">
+    <title>Busca CEP</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="tittle">
+            <h1>BUSCA CEP</h1>
+        </div>
+
+        <form id="form" action="#">
+            
+            <div class="row1">
+                <div class="inputBox">
+                    <label for="Cep"><strong>Cep</strong></label>
+                    <input type="number" name="Cep" id="cep" placeholder="Cep">
+                </div>
+
+                <div class="inputBox">
+                    <label for="Endereco"><strong>Endereço</strong></label>
+                    <input type="text" name="Endereco" id="endereco"  placeholder="Endereço">
+                </div>
+
+                <div class="inputBox">
+                    <label for="numero"><strong>Número</strong></label>
+                    <input type="number" name="Numero" id="numero" placeholder="Número">
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="inputBox">
+                    <label for="bairro"><strong>Bairro</strong></label>
+                    <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+                </div>
+
+                <div class="inputBox">
+                    <label for="cidade"><strong>Cidade</strong></label>
+                    <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+                </div>
+
+                <div class="inputBox">
+                    <label for="estado"><strong>Estado</strong></label>
+                    <input type="text" name="estado" id="estado" placeholder="Estado">
+                </div>
+            </div>
+
+            <dib class="btn">
+                <button type="submit" id="submit">SUBMIT</button>
+            </dib>
+        </form>
+
+        <di id="info"></di>
+
+    </main>
+
+
+    <!--script js-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
