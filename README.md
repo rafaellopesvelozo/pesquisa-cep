@@ -1,5 +1,5 @@
 <p align="center">👋 Olá, sou o Rafael.</p>  
-<p align="center">📚 Praticando HTML, CSS.</p>  
+<p align="center">📚 Praticando HTML, CSS e JavaScript.</p>  
 <p align="center">📉 Pesquisa Cep</p>  
 
  <br> 
